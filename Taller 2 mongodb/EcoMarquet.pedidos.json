@@ -1,0 +1,252 @@
+[{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e26fa"
+  },
+  "id_pedido": 1,
+  "cliente": {
+    "nombre": "Juan Perez",
+    "email": "juan@gmail.com"
+  },
+  "fecha": "2023-10-01",
+  "productos": [
+    {
+      "nombre_producto": "manzana",
+      "cantidad": 2,
+      "precio_unitario": 1500
+    },
+    {
+      "nombre_producto": "cafe",
+      "cantidad": 1,
+      "precio_unitario": 4500
+    }
+  ],
+  "total": 7500,
+  "estado": "entregado"
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e26fb"
+  },
+  "id_pedido": 2,
+  "cliente": {
+    "id_cliente": 102,
+    "nombre": "Ana Lopez"
+  },
+  "fecha": "2023-10-02",
+  "productos": [
+    {
+      "nombre_producto": "arroz",
+      "cantidad": 1,
+      "precio_unitario": 3000
+    },
+    {
+      "nombre_producto": "Leche Deslactosada",
+      "cantidad": 3,
+      "precio_unitario": 5000
+    }
+  ],
+  "total": 18000
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e26fc"
+  },
+  "id_pedido": 3,
+  "cliente": {
+    "id_cliente": 103,
+    "nombre": "Carlos Ruiz",
+    "email": "carlos@gmail.com"
+  },
+  "fecha": "2023-10-03",
+  "productos": [
+    {
+      "nombre_producto": "pan integral",
+      "cantidad": 1,
+      "precio_unitario": 2500
+    },
+    {
+      "nombre_producto": "yogur",
+      "cantidad": 2,
+      "precio_unitario": 3500
+    }
+  ],
+  "total": 9500,
+  "estado": "cancelado"
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e26fd"
+  },
+  "id_pedido": 4,
+  "cliente": {
+    "id_cliente": 104,
+    "nombre": "Luisa Martinez"
+  },
+  "fecha": "2023-10-04",
+  "productos": [
+    {
+      "nombre_producto": "tomate",
+      "cantidad": 4,
+      "precio_unitario": 3500
+    },
+    {
+      "nombre_producto": "cereal",
+      "cantidad": 1,
+      "precio_unitario": 4000
+    }
+  ],
+  "total": 18000,
+  "estado": "entregado"
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e26fe"
+  },
+  "id_pedido": 5,
+  "cliente": {
+    "id_cliente": 105,
+    "nombre": "Sofia Gomez",
+    "email": "sofi@gmail.com"
+  },
+  "fecha": "2023-10-05",
+  "productos": [
+    {
+      "nombre_producto": "pollo",
+      "cantidad": 1,
+      "precio_unitario": 12000
+    },
+    {
+      "nombre_producto": "queso",
+      "cantidad": 2,
+      "precio_unitario": 8000
+    }
+  ],
+  "total": 28000,
+  "estado": "en proceso"
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e26ff"
+  },
+  "id_pedido": 6,
+  "cliente": {
+    "id_cliente": 106,
+    "nombre": "Miguel Torres"
+  },
+  "fecha": "2023-10-06",
+  "productos": [
+    {
+      "nombre_producto": "pasta",
+      "cantidad": 3,
+      "precio_unitario": 4000
+    },
+    {
+      "nombre_producto": "salsa de tomate",
+      "cantidad": 2,
+      "precio_unitario": 3000
+    }
+  ],
+  "total": 18000,
+  "estado": "entregado"
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e2700"
+  },
+  "id_pedido": 7,
+  "cliente": {
+    "id_cliente": 107,
+    "nombre": "Elena Ramirez",
+    "email": "elena@gmail.com"
+  },
+  "fecha": "2023-10-07",
+  "productos": [
+    {
+      "nombre_producto": "huevos",
+      "cantidad": 12,
+      "precio_unitario": 2000
+    },
+    {
+      "nombre_producto": "jamón",
+      "cantidad": 1,
+      "precio_unitario": 7000
+    }
+  ],
+  "total": 31000,
+  "estado": "cancelado"
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e2701"
+  },
+  "id_pedido": 8,
+  "cliente": {
+    "id_cliente": 108,
+    "nombre": "Laura Fernandez",
+    "email": "laura@hotmsil.com"
+  },
+  "fecha": "2023-10-08",
+  "productos": [
+    {
+      "nombre_producto": "arveja",
+      "cantidad": 2,
+      "precio_unitario": 2500
+    },
+    {
+      "nombre_producto": "aceite de oliva",
+      "cantidad": 1,
+      "precio_unitario": 15000
+    }
+  ],
+  "total": 20000
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e2702"
+  },
+  "id_pedido": 9,
+  "cliente": {
+    "id_cliente": 109,
+    "nombre": "Pedro Castillo",
+    "email": "pedro@hotmail.com"
+  },
+  "fecha": "2023-10-09",
+  "productos": [
+    {
+      "nombre_producto": "azúcar",
+      "cantidad": 1,
+      "precio_unitario": 3800
+    },
+    {
+      "nombre_producto": "café molido",
+      "cantidad": 2,
+      "precio_unitario": 4500
+    }
+  ],
+  "total": 12800,
+  "estado": "entregado"
+},
+{
+  "_id": {
+    "$oid": "68d5bb964d1ff804222e2703"
+  },
+  "id_pedido": 10,
+  "cliente": {
+    "id_cliente": 110,
+    "nombre": "Ana Maria"
+  },
+  "fecha": "2023-10-10",
+  "productos": [
+    {
+      "nombre_producto": "leche",
+      "cantidad": 2,
+      "precio_unitario": 5000
+    },
+    {
+      "nombre_producto": "mantequilla",
+      "cantidad": 1,
+      "precio_unitario": 6000
+    }
+  ],
+  "total": 16000
+}]

@@ -1,0 +1,259 @@
+[{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26ee"
+  },
+  "id": 1,
+  "nombre": "frijol",
+  "precio": 2500,
+  "categoria": "legumbres",
+  "stock": 15,
+  "descripcion": "frijol de alta calidad, rico en proteínas y fibra dietética.",
+  "caracteristicas": {
+    "marca": "exito",
+    "color": "rojo",
+    "peso": "1.0 kg",
+    "origen": "Colombia"
+  },
+  "proveedor": {
+    "nit": "900123456-0",
+    "nombre": "Nuragro S.A.S",
+    "pais": "Colombia",
+    "contacto": {
+      "email": "nuragro.com",
+      "telefono": "+57 800-555-1234",
+      "direccion": {
+        "calle": "Carrera 7 # 123-45",
+        "ciudad": "Bogotá",
+        "codigo_postal": "100"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26ef"
+  },
+  "id": 2,
+  "nombre": "tomate",
+  "precio": 3500,
+  "categoria": "verduras",
+  "stock": 30,
+  "descripcion": "tomate fresco, ideal para ensaladas y salsas.",
+  "caracteristicas": {
+    "marca": "Croper",
+    "color": "rojo",
+    "peso": "2.0 kg",
+    "proveedor": {
+      "nit": "123456789-0",
+      "nombre": "Agrofrutas Ltda",
+      "pais": "Colombia",
+      "contacto": {
+        "email": "agrofrutas.com",
+        "direccion": {
+          "ciudad": "Medellín"
+        }
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f0"
+  },
+  "id": 3,
+  "nombre": "manzana",
+  "precio": 4500,
+  "categoria": "frutas",
+  "stock": 20,
+  "descripcion": "manzana fresca, crujiente y dulce.",
+  "caracteristicas": {
+    "marca": "Delizia",
+    "origen": "Chile"
+  },
+  "proveedor": {
+    "nit": "987654321-0",
+    "nombre": "Frutales del Sur",
+    "pais": "Chile",
+    "contacto": {
+      "email": "frutalesdelsur.com",
+      "direccion": {
+        "codigo_postal": "8320000"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f1"
+  },
+  "id": 4,
+  "nombre": "arroz",
+  "precio": 3000,
+  "stock": 25,
+  "descripcion": "arroz de grano largo, perfecto para acompañamientos y platos principales.",
+  "caracteristicas": {
+    "peso": "1.0 kg",
+    "origen": "Perú"
+  },
+  "proveedor": {
+    "nit": "123456789-0",
+    "nombre": "Cereales Andinos",
+    "pais": "Perú",
+    "contacto": {
+      "telefono": "+51 800-555-3456",
+      "direccion": {
+        "ciudad": "Lima"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f2"
+  },
+  "id": 5,
+  "nombre": "leche",
+  "precio": 4000,
+  "categoria": "lácteos",
+  "stock": 10,
+  "caracteristicas": {
+    "marca": "Lacteos del Campo"
+  },
+  "proveedor": {
+    "nit": "555666777-0",
+    "nombre": "Lácteos del Valle",
+    "contacto": {
+      "email": "lacteosdelvalle.com",
+      "direccion": {
+        "calle": "Calle 45 # 67-89 florida blanca",
+        "ciudad": "Cali"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f3"
+  },
+  "id": 6,
+  "nombre": "pan",
+  "precio": 500,
+  "categoria": "panadería",
+  "descripcion": "pan fresco, ideal para desayunos y meriendas.",
+  "caracteristicas": {
+    "tipo": "integral"
+  },
+  "proveedor": {
+    "nit": "888999000-0",
+    "nombre": "Panadería La Espiga",
+    "contacto": {
+      "direccion": {
+        "calle": "Avenida 10 # 20-30",
+        "ciudad": "Barranquilla"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f4"
+  },
+  "id": 7,
+  "nombre": "huevos",
+  "precio": 600,
+  "categoria": "lácteos",
+  "stock": 50,
+  "caracteristicas": {
+    "tipo": "orgánico",
+    "cantidad": "panal * 30 unidades"
+  },
+  "proveedor": {
+    "nit": "444555666-0",
+    "nombre": "Granja El Sol",
+    "contacto": {
+      "telefono": "+57 800-555-6789",
+      "direccion": {
+        "calle": "Carrera 15 # 45-67",
+        "ciudad": "Cúcuta",
+        "codigo_postal": "540000"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f5"
+  },
+  "id": 8,
+  "nombre": "azúcar",
+  "precio": 3800,
+  "categoria": "endulzantes",
+  "stock": 40,
+  "descripcion": "azúcar blanca refinada, ideal para repostería y bebidas.",
+  "caracteristicas": {
+    "peso": "1.0 kg"
+  },
+  "proveedor": {
+    "nit": "777888999-0",
+    "nombre": "Endulzantes del Caribe",
+    "pais": "Colombia",
+    "contacto": {
+      "telefono": "+57 800-555-4321",
+      "direccion": {
+        "ciudad": "Cartagena"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f6"
+  },
+  "id": 9,
+  "nombre": "aceite de oliva",
+  "precio": 15000,
+  "categoria": "aceites",
+  "stock": 12,
+  "caracteristicas": {
+    "marca": "Oliva Real",
+    "volumen": "500 ml",
+    "origen": "España"
+  },
+  "proveedor": {
+    "nit": "222333444-0",
+    "nombre": "Aceites Mediterráneos",
+    "pais": "España",
+    "contacto": {
+      "email": "aceitesmediterraneos.com",
+      "direccion": {
+        "ciudad": "Madrid",
+        "codigo_postal": "28013"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68d5b3294d1ff804222e26f7"
+  },
+  "id": 10,
+  "nombre": "café",
+  "precio": 12000,
+  "stock": 18,
+  "descripcion": "café molido de alta calidad, con un sabor intenso y aroma delicioso.",
+  "caracteristicas": {
+    "marca": "Café Supremo",
+    "peso": "250 g"
+  },
+  "proveedor": {
+    "nit": "666777888-0",
+    "nombre": "Cafeteros Unidos",
+    "pais": "Colombia",
+    "contacto": {
+      "telefono": "+57 800-555-9876",
+      "direccion": {
+        "ciudad": "Pereira"
+      }
+    }
+  }
+}]
